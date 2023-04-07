@@ -1,0 +1,10 @@
+
+4. w/ ridge(l2) only-- loss: 0.2717 - val_loss: 0.3201, Evaluation loss: 0.4292,
+Reconstruction error:  0.2152,  RMSE: 0.5394, PSNR = 54.3704, ssim_score: 0.1155
+
+-- extra note: different weighted images have different structural similarities to the t1,t2,pd so even changing what they represent change the loss. For example if we wish fse to represent t1 then it is whole another topic, if we want flair to represent t1 it is something else.
+
+-- 25 or 15 or 10 epochs are too much, lowered to 5. (they all overfit.)
+-- I will make another ipynb for this one and report all in the slide
+
+-- Change of formulation after 4 of each. Now I will use T1w -T2w and FLAIR (flair is the best one to show pd T1w is best for T1 and T2w is best for T2.)

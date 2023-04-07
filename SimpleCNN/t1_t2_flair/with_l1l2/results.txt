@@ -1,0 +1,10 @@
+For Simple CNN (seed 42)
+
+1. w/ lasso ve ridge regularization -- loss: 0.3376 - val_loss: 0.5903, Reconstruction error:  0.2497, RMSE: 0.4988, PSNR = 54.1716 , ssim_score: 0.4296; 
+
+1. Also tried with more filters (8 filters with [32,32,64,64,128,128,256,256]), Evaluation loss: 0.2243, loss: 0.2087 - val_loss: 0.2346, RMSE: 0.4681, PSNR: 54.7225,ssim_score: 0.1007
+
+1. Now trying with AutoEncoder CNN model with 8 filters, tons of parameters that we are trying to prevent. (looks like more complex autoencoder does not change much, but we'll see the result) PSNR: 55.0022, RMSE = 0.45, loss: 0.2068 - val_loss: 0.2351, eval_loss = 0.21, Reconstruction error:  0.24859, more than 256 filter didn't decrease loss however made easier overfit.
+
+1. AE CNN with 16-16 encoder-decoder filters from (4,8,16,32,64,128,256,512) with high resolution preserved with stride = 1. however only changed the spot where we overfit. (Easier to overfit, too much parameters, computationally costly and inefficient.)
+Evaluation loss: 0.2136, minimum (loss: 0.2105 - val_loss: 0.2557), last (loss: 0.2074 - val_loss: 0.3548), RMSE: 0.5433, PSNR= 53.4285, ssim_score: 0.0542 (similarity decreased harshly.).

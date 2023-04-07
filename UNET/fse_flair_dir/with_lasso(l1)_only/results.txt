@@ -1,0 +1,1 @@
+w/ lasso(l1) only --loss: 0.3112 - val_loss: 0.3155, Reconstruction error: 0.2367, Evaluation loss: 0.4368, RMSE: 0.5055, PSNR = 54.055, ssim_score: 0.2796

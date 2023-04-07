@@ -1,0 +1,6 @@
+2. (for 42) w/o lasso and ridge regularization -- loss: 0.0673 - val_loss: 0.2756, PSNR =53.4969, ssim_score: 0.2369, Reconstruction error = 0.2459, RMSE: 0.5391, for FSE,FLAIR DIR it was loss = 0.3, val_loss 0.55 ++ (overfitted so less epoch.) 
+
+-- random_seed also changes the loss and overfit. So  I tried 42 and 14 for 2. w/o Simple CNN will also try for others hera re the results for 14 (all the other results are taken for 14 not 42, but will make them 42 too.)
+
+2. w/o lasso and ridge regularization -- loss: 0.2691 - val_loss: 0.3340,reconstruction_error = 0.2639, Evaluation loss: 0.4382, RMSE: 0.5394, 
+PSNR= 53.4918, ssim_score: 0.2791. 

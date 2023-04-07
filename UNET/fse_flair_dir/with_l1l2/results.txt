@@ -1,0 +1,1 @@
+loss: 0.3088 - val_loss: 0.3268 , Reconstruction error: 0.226, Evaluation loss: 0.4421, RMSE: 0.4926, PSNR = 54.21, ssim_score: 0.2021 

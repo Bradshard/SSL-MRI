@@ -1,0 +1,1 @@
+w/o lasso and ridge regularization -- val_loss : 0.3 loss :0.3 (keeps decreasing overfit) - Reconstruction error: 0.251 (to prevent overfit 10 epochs sufficient.) SSIM == 0.34 RMSE == 0.52 PSNR = 53.8 eval_loss = 0.41 ++
